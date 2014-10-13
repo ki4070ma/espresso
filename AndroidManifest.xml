@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.espresso.test"
+    package="com.example.espresso"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -8,7 +8,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name" >
         <activity
-            android:name="com.example.espresso.test.MainActivity"
+            android:name="com.example.espresso.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" >
             <intent-filter>
@@ -18,7 +18,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.espresso.test.MainActivity2"
+            android:name="com.example.espresso.MainActivity2"
             android:screenOrientation="portrait" >
         </activity>
     </application>

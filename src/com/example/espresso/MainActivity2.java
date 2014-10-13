@@ -1,4 +1,6 @@
-package com.example.espresso.test;
+package com.example.espresso;
+
+import com.example.espresso.R;
 
 import android.app.Activity;
 import android.os.Bundle;
